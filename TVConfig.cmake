@@ -92,9 +92,11 @@ endif(MINGW)
 if(CYGWIN)
 	set(TVCompf_Cygwin 1)
 endif(CYGWIN)
+
 if(NOT ENABLE_WINGR_DRIVER)
 	set(TV_Disable_WinGr_Driver 1)
 endif(NOT ENABLE_WINGR_DRIVER)
+
 configure_file ("${CMAKE_SOURCE_DIR}/include/tv/configtv.h.in"
                 "${CMAKE_BINARY_DIR}/include/tv/configtv.h" )
 
