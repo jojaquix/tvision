@@ -1,4 +1,4 @@
-/* Copyright (C) 1996-1998 Robert H”hne, see COPYING.RH for details */
+/* Copyright (C) 1996-1998 Robert Hï¿½hne, see COPYING.RH for details */
 /* This file is part of RHIDE. */
 /* Copyright 1998-2002 Salvador E. Tropea */
 #include <tv/configtv.h>

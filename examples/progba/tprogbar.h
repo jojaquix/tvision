@@ -17,12 +17,12 @@
    directives or to be safe somewhere in the middle between "#define Uses_*" 
    blocks. Don't forget to make a backup of DIALOGS.H if you make mistakes.
 
-   In MAKEFILE. in \TVISION\SOURCE edit the OBJS = statement to include
+   In MAKEFILE. in \TVISION\SOURCE edit the OBJS = statement to core
    TPROGBAR.OBJ or compile it alone and just add it to the TV.LIB via
    TLIB (easier).
 
    To comiple individually and use try:
-	 bcc -c -P -O1 -ml -I<include dirs> -n<obj dirs> tprogbar.cpp
+	 bcc -c -P -O1 -ml -I<core dirs> -n<obj dirs> tprogbar.cpp
 	    + add "-Y -Vs -B" for overlay version of TV.
 	 tlib tv.lib /0 +TPROGBAR
 

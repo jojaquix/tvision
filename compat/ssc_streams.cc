@@ -264,7 +264,7 @@ void SSC_strstreambuf::MakeRoomFor(size_t bytes)
 }
 
 #ifdef TEST
-// g++ -DTEST -o /tmp/test -I../include ssc_streams.cc 
+// g++ -DTEST -o /tmp/test -I../core ssc_streams.cc
 
 int main(int argc, char *argv[])
 {

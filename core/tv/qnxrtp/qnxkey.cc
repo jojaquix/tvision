@@ -18,8 +18,8 @@
 // I delay the check to generate as much dependencies as possible
 #if defined(TVOS_UNIX) && defined(TVOSf_QNXRtP)
 
-/* include main photon header for pterm key modifier support.           */
-/* we must include photon headers before all (GUI vs TUI conflict ;)    */
+/* core main photon header for pterm key modifier support.           */
+/* we must core photon headers before all (GUI vs TUI conflict ;)    */
 #include <Ph.h>
 
 #include <termios.h>

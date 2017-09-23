@@ -97,7 +97,7 @@ if(NOT ENABLE_WINGR_DRIVER)
 	set(TV_Disable_WinGr_Driver 1)
 endif(NOT ENABLE_WINGR_DRIVER)
 
-configure_file ("${CMAKE_SOURCE_DIR}/include/tv/configtv.h.in"
+configure_file ("${CMAKE_SOURCE_DIR}/core/tv/configtv.h.in"
                 "${CMAKE_BINARY_DIR}/include/tv/configtv.h" )
 
 

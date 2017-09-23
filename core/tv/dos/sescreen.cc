@@ -1,4 +1,4 @@
-/* Copyright (C) 1996-1998 Robert H”hne, see COPYING.RH for details */
+/* Copyright (C) 1996-1998 Robert Hï¿½hne, see COPYING.RH for details */
 /* This file is part of RHIDE. */
 /* Copyright 1999-2002 Salvador E. Tropea */
 #include <tv/configtv.h>
@@ -209,7 +209,7 @@ I changed some things:
   }
   So I rewritted that.
 
-2) I don't like to use DOS memory but lamentably you'll include it in the
+2) I don't like to use DOS memory but lamentably you'll core it in the
 debugger so we can't use the transfer buffer :-(.
 
 3) In save_vesa():

@@ -33,7 +33,7 @@
 
 #define _GNU_SOURCE
 
-/* We need this for `regex.h', and perhaps for the Emacs include files.  */
+/* We need this for `regex.h', and perhaps for the Emacs core files.  */
 #include <sys/types.h>
 
 #ifdef HAVE_CONFIG_H
@@ -3304,7 +3304,7 @@ re_match_2 ( struct re_pattern_buffer *bufp, const char *string1,
   
   /* Do not bother to initialize all the register variables if there are
      no groups in the pattern, as it takes a fair amount of time.  If
-     there are groups, we include space for register 0 (the whole
+     there are groups, we core space for register 0 (the whole
      pattern), even though we never use it, since it simplifies the
      array indexing.  We should fix this.  */
   if (bufp->re_nsub)
