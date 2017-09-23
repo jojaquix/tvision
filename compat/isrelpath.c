@@ -1,12 +1,12 @@
 /*
- Copyright (C) 1996-1998 Robert H”hne
+ Copyright (C) 1996-1998 Robert Hï¿½hne
  Copyright (C) 2000-2002 Salvador E. Tropea
  Covered by the GPL license.
 */
 
 #define Uses_ctype
 #define Uses_stdlib
-#include <compatlayer.h>
+#include "compatlayer.h"
 
 #if defined(TVOS_DOS) || defined(TVOS_Win32)
  #define StartsWithDrive(path) (ucisalpha(path[0]) && path[1]==':')

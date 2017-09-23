@@ -3,7 +3,7 @@
  Covered by the GPL license.
 */
 #define Uses_stdlib
-#include <compatlayer.h>
+#include "compatlayer.h"
 
 #if (defined(TVOS_DOS) || defined(TVOS_Win32)) && !defined(TVCompf_Cygwin)
 TV_EXPORT char *CLY_GetShellName(void)

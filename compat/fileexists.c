@@ -5,7 +5,7 @@
 */
 
 #define Uses_access
-#include <compatlayer.h>
+#include "compatlayer.h"
 
 int CLY_FileExists(const char *fname)
 {

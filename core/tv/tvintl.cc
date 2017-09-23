@@ -13,7 +13,7 @@
  #define __MSS_USED__
  #undef MSS
 #endif 
-#include <compatlayer.h>
+#include "../../compat/compatlayer.h"
 #ifdef __MSS_USED__
  #define MSS
  #undef __MSS_USED__

@@ -13,7 +13,7 @@
 #define Uses_string
 #define Uses_limits
 #define Uses_stdlib
-#include <compatlayer.h>
+#include "compat/compatlayer.h"
 
 #define VERSION "1.0.0"
 

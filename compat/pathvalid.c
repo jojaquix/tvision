@@ -1,5 +1,5 @@
 /*
- Copyright (C) 1996-1998 Robert H”hne
+ Copyright (C) 1996-1998 Robert Hï¿½hne
  Copyright (C) 2000      Anatoli Soltan
  Copyright (C) 2000      Salvador E. Tropea
  Covered by the GPL license.
@@ -7,7 +7,7 @@
 
 #define Uses_string
 #define Uses_limits
-#include <compatlayer.h>
+#include "compatlayer.h"
 
 // CheckOnlyDrive(dir) and CheckDriveValid(a)
 #if CLY_HaveDriveLetters

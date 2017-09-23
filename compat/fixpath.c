@@ -199,7 +199,7 @@ _fixpath(const char *in, char *out)
 #define Uses_limits
 #define Uses_getcurdir
 #define Uses_stdlib
-#include <compatlayer.h>
+#include "compatlayer.h"
 
 inline static int
 is_slash(int c)

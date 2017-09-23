@@ -1,5 +1,5 @@
 /*
- Copyright (C) 1996-1998 Robert H”hne
+ Copyright (C) 1996-1998 Robert Hï¿½hne
  Copyright (C) 2000      Vadim Beloborodov
  Copyright (C) 2000      Salvador E. Tropea
  Covered by the GPL license.
@@ -12,7 +12,7 @@
 #define Uses_fixpath
 #define Uses_string
 #define Uses_limits
-#include <compatlayer.h>
+#include "compatlayer.h"
 
 void CLY_fexpand( char *rpath )
 {

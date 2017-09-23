@@ -1,5 +1,5 @@
 /*
- Copyright (C) 1996-1998 Robert H”hne
+ Copyright (C) 1996-1998 Robert Hï¿½hne
  Copyright (C) 2000      Vadim Beloborodov
  Copyright (C) 2000      Anatoli Soltan
  Copyright (C) 2000-2005 Salvador E. Tropea
@@ -11,7 +11,7 @@
 #define Uses_limits
 #define Uses_string
 #define Uses_unistd
-#include <compatlayer.h>
+#include "compatlayer.h"
 
 #ifdef NEEDS_GETCURDIR
 

@@ -14,9 +14,9 @@ BTW: this change saved 172 bytes of code and added 20 bytes of data.
 
 ***************************************************************************/
 
-/* Copyright (C) 1996-1998 Robert H”hne, this file is part of RHTVision and
+/* Copyright (C) 1996-1998 Robert Hï¿½hne, this file is part of RHTVision and
    is under the GPL license */
-#include <compatlayer.h>
+#include "../../../compat/compatlayer.h"
 
 #ifdef TVCompf_djgpp
 /*

@@ -9,7 +9,7 @@
 
 #define Uses_filelength
 #define Uses_fstream
-#include <compatlayer.h>
+#include "compatlayer.h"
 
 #include <cl/needs.h>
 

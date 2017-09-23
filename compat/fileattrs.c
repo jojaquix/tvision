@@ -12,7 +12,7 @@ for SETEdit and not a full set.
 
 #define Uses_CLYFileAttrs
 #define Uses_alloca
-#include <compatlayer.h>
+#include "compatlayer.h"
 
 
 #ifdef TVCompf_djgpp

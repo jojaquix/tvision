@@ -1,11 +1,11 @@
 /*
- Copyright (C) 1996-1998 Robert H”hne
+ Copyright (C) 1996-1998 Robert Hï¿½hne
  Copyright (C) 2000      Salvador E. Tropea
  Covered by the GPL license.
 */
 
 #define Uses_string
-#include <compatlayer.h>
+#include "compatlayer.h"
 
 /**[txh]********************************************************************
 

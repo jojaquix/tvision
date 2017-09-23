@@ -1,5 +1,5 @@
 /*
- Copyright (C) 1996-1998 Robert H”hne
+ Copyright (C) 1996-1998 Robert Hï¿½hne
  Copyright (C) 2000      Vadim Beloborodov
  Copyright (C) 2000      Anatoli Soltan
  Copyright (C) 2000      Salvador E. Tropea
@@ -7,7 +7,7 @@
 */
 
 #define Uses_string
-#include <compatlayer.h>
+#include "compatlayer.h"
 
 #ifdef TVCompf_djgpp
 #include <fcntl.h>

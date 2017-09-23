@@ -8,8 +8,9 @@ option(ENABLE_WINGR_DRIVER "Enable WinGr Driver" ON)
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}")
 include(TVConfig)
 
-include_directories(${CMAKE_BINARY_DIR}/include
+include_directories(${CMAKE_BINARY_DIR}/include $
 		${CMAKE_SOURCE_DIR}/core
+		${CMAKE_SOURCE_DIR}/compat
 		)
 
 set(COMPAT_SRCS
@@ -272,8 +273,8 @@ set(RHTV_SRCS
 )
 
 set(RHTV_HDRS
-		core/cl/unistd.h
-		core/compatlayer.h
+		compat/cl/unistd.h
+		compat/compatlayer.h
 		core/tv.h
 		core/tv/app.h
 		core/tv/applictn.h

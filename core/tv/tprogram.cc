@@ -32,7 +32,7 @@ Modified by Salvador E. Tropea to disable Alt+N stuff.
 #define Uses_TVOSClipboard
 #include <tv.h>
 
-#include <compatlayer.h>
+#include "../../compat/compatlayer.h"
 
 // Public variables
 
