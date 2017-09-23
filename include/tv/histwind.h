@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -19,7 +19,7 @@ class TRect;
 class TWindow;
 class TInputLine;
 
-class CLY_EXPORT THistInit
+class TV_EXPORT THistInit
 {
 
 public:
@@ -45,7 +45,7 @@ protected:
 /*        7 = HistoryViewer selected text                                 */
 /* ---------------------------------------------------------------------- */
 
-class CLY_EXPORT THistoryWindow : public TWindow, public virtual THistInit
+class TV_EXPORT THistoryWindow : public TWindow, public virtual THistInit
 {
 
 public:

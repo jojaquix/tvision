@@ -4,7 +4,7 @@
 #define Uses_TStreamableClass
 #include <tv.h>
 
-TStreamableClass CLY_EXPORT RDirCollection( TDirCollection::name,
+TStreamableClass TV_EXPORT RDirCollection( TDirCollection::name,
                                  TDirCollection::build,
                                  __DELTA(TDirCollection)
                                );

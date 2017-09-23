@@ -5,7 +5,7 @@
 #include <tv.h>
 __link( RView )
 
-TStreamableClass CLY_EXPORT RColorSelector( TColorSelector::name,
+TStreamableClass TV_EXPORT RColorSelector( TColorSelector::name,
                                  TColorSelector::build,
                                  __DELTA(TColorSelector)
                                );

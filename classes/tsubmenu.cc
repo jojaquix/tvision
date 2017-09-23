@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -21,7 +21,7 @@ TSubMenu::TSubMenu( const char *nm, ushort key, ushort helpCtx ) :
 {
 }
 
-CLY_EXPORT TSubMenu& operator + ( TSubMenu& s, TMenuItem& i )
+TV_EXPORT TSubMenu& operator + ( TSubMenu& s, TMenuItem& i )
 {
     TSubMenu *sub = &s;
     while( sub->next != 0 )
@@ -39,7 +39,7 @@ CLY_EXPORT TSubMenu& operator + ( TSubMenu& s, TMenuItem& i )
     return s;
 }
 
-CLY_EXPORT TSubMenu& operator + ( TSubMenu& s1, TSubMenu& s2 )
+TV_EXPORT TSubMenu& operator + ( TSubMenu& s1, TSubMenu& s2 )
 {
     TMenuItem *cur = &s1;
     while( cur->next != 0 )

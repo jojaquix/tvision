@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -29,7 +29,7 @@ Modified by Robert H”hne to be used for RHIDE.
 class TRect;
 class TMenu;
 
-class CLY_EXPORT TMenuBar : public TMenuView
+class TV_EXPORT TMenuBar : public TMenuView
 {
 
 public:

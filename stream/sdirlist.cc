@@ -4,7 +4,7 @@
 #define Uses_TStreamableClass
 #include <tv.h>
 
-TStreamableClass CLY_EXPORT RDirListBox( TDirListBox::name,
+TStreamableClass TV_EXPORT RDirListBox( TDirListBox::name,
                               TDirListBox::build,
                               __DELTA(TDirListBox)
                             );

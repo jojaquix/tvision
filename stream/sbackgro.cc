@@ -5,7 +5,7 @@
 #include <tv.h>
 __link( RView )
 
-TStreamableClass CLY_EXPORT RBackground( TBackground::name,
+TStreamableClass TV_EXPORT RBackground( TBackground::name,
                               TBackground::build,
                               __DELTA(TBackground)
                             );

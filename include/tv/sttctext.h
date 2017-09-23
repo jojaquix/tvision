@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 Modified by Salvador E. Tropea: added i18n support, added T1StaticText.
 
  *
@@ -24,7 +24,7 @@ Modified by Salvador E. Tropea: added i18n support, added T1StaticText.
 
 class TRect;
 
-class CLY_EXPORT TStaticText : public TView
+class TV_EXPORT TStaticText : public TView
 {
 
 public:

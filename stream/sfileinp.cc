@@ -5,7 +5,7 @@
 #include <tv.h>
 __link( RInputLine )
 
-TStreamableClass CLY_EXPORT RFileInputLine( TFileInputLine::name,
+TStreamableClass TV_EXPORT RFileInputLine( TFileInputLine::name,
                                  TFileInputLine::build,
                                 __DELTA(TFileInputLine)
                                );

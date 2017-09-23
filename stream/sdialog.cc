@@ -6,7 +6,7 @@
 
 __link( RWindow )
 
-TStreamableClass CLY_EXPORT RDialog( TDialog::name,
+TStreamableClass TV_EXPORT RDialog( TDialog::name,
                           TDialog::build,
                           __DELTA(TDialog)
                         );

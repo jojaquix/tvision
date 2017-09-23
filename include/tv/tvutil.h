@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 Modified by Salvador E. Tropea to avoid macros collisions and make easier to use.
 
  */
@@ -62,21 +62,21 @@ template <class T> inline T max( const T &a, const T &b )
 
 #endif
 
-char CLY_EXPORT hotKey( const char *s );
-unsigned short CLY_EXPORT ctrlToArrow( unsigned short );
+char TV_EXPORT hotKey( const char *s );
+unsigned short TV_EXPORT ctrlToArrow( unsigned short );
 
-unsigned short CLY_EXPORT historyCount( unsigned char id );
-const char CLY_EXPORT *historyStr( unsigned char id, int index );
-void CLY_EXPORT historyAdd( unsigned char id, const char * );
+unsigned short TV_EXPORT historyCount( unsigned char id );
+const char TV_EXPORT *historyStr( unsigned char id, int index );
+void TV_EXPORT historyAdd( unsigned char id, const char * );
 
 int cstrlen( const char * );
 
 class TView;
-void CLY_EXPORT *message( TView *receiver, unsigned short what, unsigned short command,
+void TV_EXPORT *message( TView *receiver, unsigned short what, unsigned short command,
                           void *infoPtr );
-Boolean CLY_EXPORT lowMemory();
+Boolean TV_EXPORT lowMemory();
 
-char CLY_EXPORT *newStr( const char * );
+char TV_EXPORT *newStr( const char * );
 
 /* SET: Added a conditional for it because n is too common. I remmember I had
    problems with it and Jerzy Witkowski <jwi@pl.ibm.com> complained about
@@ -86,7 +86,7 @@ char CLY_EXPORT *newStr( const char * );
    for the TV lib when compiling all the n*.cc files */
 
 #define n(CLASS)                          \
-class CLY_EXPORT CLASS                    \
+class TV_EXPORT CLASS                    \
 {                                         \
 public:                                   \
   static const char * const name;         \

@@ -4,7 +4,7 @@
 #define Uses_TPXPictureValidator
 #include <tv.h>
 
-TStreamableClass CLY_EXPORT RPXPictureValidator( TPXPictureValidator::name,
+TStreamableClass TV_EXPORT RPXPictureValidator( TPXPictureValidator::name,
                          TPXPictureValidator::build,
                          __DELTA(TPXPictureValidator)
                        );

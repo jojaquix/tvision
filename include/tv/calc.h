@@ -42,7 +42,7 @@ class TRect;
 class TPalette;
 struct TEvent;
 
-class CLY_EXPORT TCalcDisplay : public TView
+class TV_EXPORT TCalcDisplay : public TView
 {
 public:
 
@@ -101,7 +101,7 @@ inline opstream& operator << ( opstream& os, TCalcDisplay* cl )
 #if defined(Uses_TCalculator) && !defined( TCalculator__ )
 #define TCalculator__
 
-class CLY_EXPORT TCalculator : public TDialog
+class TV_EXPORT TCalculator : public TDialog
 {
 public:
 

@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -14,9 +14,9 @@ Modified by Robert H”hne to be used for RHIDE.
 #if defined( Uses_TMenu ) && !defined( __TMenu )
 #define __TMenu
 
-class CLY_EXPORT TMenuItem;
+class TV_EXPORT TMenuItem;
 
-class CLY_EXPORT TMenu
+class TV_EXPORT TMenu
 {
 
 public:

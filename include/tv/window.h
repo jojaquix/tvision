@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 Modified for i18n support by Salvador Eduardo Tropea.
 
  *
@@ -22,7 +22,7 @@ struct TEvent;
 class TFrame;
 class TScrollBar;
 
-class CLY_EXPORT TWindowInit
+class TV_EXPORT TWindowInit
 {
 
 public:
@@ -49,7 +49,7 @@ protected:
 /*        8 = Reserved                                                    */
 /* ---------------------------------------------------------------------- */
 
-class CLY_EXPORT TWindow: public TGroup, public virtual TWindowInit
+class TV_EXPORT TWindow: public TGroup, public virtual TWindowInit
 {
 
 public:

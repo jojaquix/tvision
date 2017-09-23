@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -26,7 +26,7 @@ Modified by Robert H”hne to be used for RHIDE.
 #if defined( Uses_TPWrittenObjects ) && !defined( __TPWrittenObjects )
 #define __TPWrittenObjects
 
-class CLY_EXPORT TPWrittenObjects : public TNSSortedCollection
+class TV_EXPORT TPWrittenObjects : public TNSSortedCollection
 {
 
     friend class opstream;
@@ -59,7 +59,7 @@ private:
 /*                                                                         */
 /* ------------------------------------------------------------------------*/
 
-class CLY_EXPORT TPWObj
+class TV_EXPORT TPWObj
 {
 
     friend class TPWrittenObjects;

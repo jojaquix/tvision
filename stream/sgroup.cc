@@ -5,7 +5,7 @@
 #include <tv.h>
 __link( RView )
 
-TStreamableClass CLY_EXPORT RGroup( TGroup::name,
+TStreamableClass TV_EXPORT RGroup( TGroup::name,
                          TGroup::build,
                          __DELTA(TGroup)
                        );

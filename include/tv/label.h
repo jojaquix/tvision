@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 Modified by Salvador E. Tropea: added i18n support, T1Label inspired in
 TVTools but reworked.
 
@@ -30,7 +30,7 @@ class TRect;
 struct TEvent;
 class TView;
 
-class CLY_EXPORT TLabel : public TStaticText
+class TV_EXPORT TLabel : public TStaticText
 {
 
 public:

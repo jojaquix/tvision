@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 Modified by Salvador E. Tropea, tile, options, cursor behavior, etc.
 
  *
@@ -31,7 +31,7 @@ protected:
     TBackground *(*createBackground)( TRect );
 };
 
-class CLY_EXPORT TDeskTop : public TGroup, public virtual TDeskInit
+class TV_EXPORT TDeskTop : public TGroup, public virtual TDeskInit
 {
 
 public:

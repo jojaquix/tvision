@@ -17,7 +17,7 @@ Modified by Robert H�hne to be used for RHIDE.
 class TRect;
 class TScrollBar;
 
-class CLY_EXPORT TTerminal: public TTextDevice
+class TV_EXPORT TTerminal: public TTextDevice
 {
 
 public:

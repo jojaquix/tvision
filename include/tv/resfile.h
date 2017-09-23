@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -17,7 +17,7 @@ Modified by Robert H”hne to be used for RHIDE.
 class TResourceCollection;
 class fpstream;
 
-class CLY_EXPORT TResourceFile: public TObject
+class TV_EXPORT TResourceFile: public TObject
 {
 
 public:

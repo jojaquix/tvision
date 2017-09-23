@@ -6,7 +6,7 @@
 __link( RWindow )
 __link( RFileEditor )
 
-TStreamableClass CLY_EXPORT REditWindow( TEditWindow::name,
+TStreamableClass TV_EXPORT REditWindow( TEditWindow::name,
                               TEditWindow::build,
                               __DELTA(TEditWindow)
                             );

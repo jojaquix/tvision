@@ -5,7 +5,7 @@
 #include <tv.h>
 __link( RView )
 
-TStreamableClass CLY_EXPORT RStatusLine( TStatusLine::name,
+TStreamableClass TV_EXPORT RStatusLine( TStatusLine::name,
                               TStatusLine::build,
                               __DELTA(TStatusLine)
                             );

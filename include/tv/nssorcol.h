@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -14,7 +14,7 @@ Modified by Robert H”hne to be used for RHIDE.
 #if defined( Uses_TNSSortedCollection ) && !defined( __TNSSortedCollection )
 #define __TNSSortedCollection
 
-class CLY_EXPORT TNSSortedCollection: public virtual TNSCollection
+class TV_EXPORT TNSSortedCollection: public virtual TNSCollection
 {
 
 public:

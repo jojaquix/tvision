@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -28,9 +28,9 @@ const ushort
 class TColorItem;
 class TColorGroup;
 
-CLY_EXPORT TColorItem& operator + ( TColorItem& i1, TColorItem& i2 );
-CLY_EXPORT TColorGroup& operator + ( TColorGroup& g, TColorItem& i );
-CLY_EXPORT TColorGroup& operator + ( TColorGroup& g1, TColorGroup& g2 );
+TV_EXPORT TColorItem& operator + ( TColorItem& i1, TColorItem& i2 );
+TV_EXPORT TColorGroup& operator + ( TColorGroup& g, TColorItem& i );
+TV_EXPORT TColorGroup& operator + ( TColorGroup& g1, TColorGroup& g2 );
 
 #if defined( Uses_TColorItem )
 

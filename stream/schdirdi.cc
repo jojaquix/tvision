@@ -7,7 +7,7 @@ __link( RDialog )
 __link( RButton )
 __link( RDirListBox )
 
-TStreamableClass CLY_EXPORT RChDirDialog( TChDirDialog::name,
+TStreamableClass TV_EXPORT RChDirDialog( TChDirDialog::name,
                                TChDirDialog::build,
                                __DELTA(TChDirDialog)
                              );

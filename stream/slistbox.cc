@@ -5,7 +5,7 @@
 #include <tv.h>
 __link( RListViewer )
 
-TStreamableClass CLY_EXPORT RListBox( TListBox::name,
+TStreamableClass TV_EXPORT RListBox( TListBox::name,
                            TListBox::build,
                            __DELTA(TListBox)
                          );

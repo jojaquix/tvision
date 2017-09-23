@@ -4,7 +4,7 @@
 #define Uses_TStreamableClass
 #include <tv.h>
 
-TStreamableClass CLY_EXPORT RMenuBox( TMenuBox::name,
+TStreamableClass TV_EXPORT RMenuBox( TMenuBox::name,
                            TMenuBox::build,
                            __DELTA(TMenuBox)
                          );

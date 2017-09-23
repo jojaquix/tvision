@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 Modified by Salvador E. Tropea for i18n support.
 
  *
@@ -17,7 +17,7 @@ Modified by Salvador E. Tropea for i18n support.
 
 class TColorGroup;
 
-class CLY_EXPORT TColorItem
+class TV_EXPORT TColorItem
 {
 
 public:

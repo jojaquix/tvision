@@ -5,7 +5,7 @@
 #include <tv.h>
 __link(RFilterValidator)
 
-TStreamableClass CLY_EXPORT RRangeValidator( TRangeValidator::name,
+TStreamableClass TV_EXPORT RRangeValidator( TRangeValidator::name,
                          TRangeValidator::build,
                          __DELTA(TRangeValidator)
                        );

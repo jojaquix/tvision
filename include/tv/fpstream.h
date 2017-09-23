@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 Modified to compile with gcc v3.x by Salvador E. Tropea, with the help of
 Andris Pavenis and Christoph Bauer.
 
@@ -25,7 +25,7 @@ Andris Pavenis and Christoph Bauer.
 #if defined( Uses_fpstream ) && !defined( __fpstream )
 #define __fpstream
 
-class CLY_EXPORT fpstream : public fpbase, public iopstream
+class TV_EXPORT fpstream : public fpbase, public iopstream
 {
 public:
     fpstream();

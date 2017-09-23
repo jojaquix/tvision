@@ -13,7 +13,7 @@ __link( RColorDisplay )
 __link( RColorItemList )
 __link( RScrollBar )
 
-TStreamableClass CLY_EXPORT RColorDialog( TColorDialog::name,
+TStreamableClass TV_EXPORT RColorDialog( TColorDialog::name,
                                TColorDialog::build,
                                __DELTA(TColorDialog)
                              );

@@ -4,7 +4,7 @@
  *      Copyright (c) 1994 by Borland International
  *      All Rights Reserved.
  *
- * Modified by Robert H”hne to be used for RHIDE.
+ * Modified by Robert Hï¿½hne to be used for RHIDE.
  * SET: Hardware abstaction with ideas from JASC.
  *
  */
@@ -23,7 +23,7 @@ struct MouseEventType
 // be used directly. You should use TMouse instead which is derived from
 // it. That's why most members are protected.
 // See thwmouse.cc
-class CLY_EXPORT THWMouse
+class TV_EXPORT THWMouse
 {
 protected:
  THWMouse();
@@ -108,7 +108,7 @@ inline void THWMouse::inhibit()
 }
 
 // This class exposses the mouse interface.
-class CLY_EXPORT TMouse : public THWMouse
+class TV_EXPORT TMouse : public THWMouse
 {
 public:
  TMouse();

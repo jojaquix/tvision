@@ -5,7 +5,7 @@
 #include <tv.h>
 __link( RListViewer )
 
-TStreamableClass CLY_EXPORT RColorGroupList( TColorGroupList::name,
+TStreamableClass TV_EXPORT RColorGroupList( TColorGroupList::name,
                                   TColorGroupList::build,
                                   __DELTA(TColorGroupList)
                                 );

@@ -5,26 +5,43 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
  */
 
-#if defined( Uses_TObject ) && !defined( __TObject )
+//#if defined( Uses_TObject ) && !defined( __TObject )
+
+#ifndef __TObject
 #define __TObject
 
 #include <stddef.h>
+#include <boost/signals2.hpp>
 
-class CLY_EXPORT TObject
+
+/**
+ * Base class for this turbo vision implementation.
+ *
+ */
+class TV_EXPORT TObject
 {
 
 public:
 
+    virtual void init ();
     virtual ~TObject();
 
     static void CLY_destroy( TObject * );
     virtual void shutDown();
+
+    boost::signals2::signal<void (TObject* sender)> onInit;
+    boost::signals2::signal<void (TObject* sender)> onShutdown;
+
+    /**
+     * Signal generate when the object is deleted.
+     */
+    boost::signals2::signal<void (TObject* sender)> onDestroy;
 
 private:
 

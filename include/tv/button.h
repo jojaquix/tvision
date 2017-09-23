@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 Added callback, code page stuff and various details by Salvador Eduardo Tropea.
 Added new class TButtonRef by Salvador Eduardo Tropea.
 Added i18n support by Salvador Eduardo Tropea.
@@ -28,8 +28,12 @@ Added i18n support by Salvador Eduardo Tropea.
 /*        8 = Shadow                                                      */
 /* ---------------------------------------------------------------------- */
 
-#if defined( Uses_TButton ) && !defined( __TButton )
+//#if defined( Uses_TButton ) && !defined( __TButton )
+
+#ifndef __TButton
 #define __TButton
+
+#include <boost/signals2.hpp>
 
 class TRect;
 struct TEvent;
@@ -39,10 +43,15 @@ class TDrawBuffer;
 typedef int (*TButtonCallBack)(unsigned command, void *data);
 const int btcbGoOn=0, btcbEndModal=1;
 
-class CLY_EXPORT TButton : public TView
+
+class TV_EXPORT TButton : public TView
 {
 
 public:
+
+
+    boost::signals2::signal<void (TButton*)> onClick;
+
 
     TButton( const TRect& bounds,
              const char *aTitle,
@@ -56,10 +65,9 @@ public:
     virtual TPalette& getPalette() const;
     virtual void handleEvent( TEvent& event );
     void makeDefault( Boolean enable );
-    virtual void press();
-    virtual void setState( ushort aState, Boolean enable );
-    void setCallBack(TButtonCallBack cb, void *aData=NULL)
-         { callBack=cb; cbData=aData; };
+
+    virtual void setState( ushort aState, Boolean enable );;
+
     const char *getText() { return TVIntl::getText(title,intlTitle); };
 
     const char *title;
@@ -74,12 +82,11 @@ protected:
     ushort command;
     uchar flags;
     Boolean amDefault;
-    TButtonCallBack callBack;
-    void *cbData; // SET: Callback data
 
 private:
 
     void drawTitle( TDrawBuffer&, int, int, ushort, Boolean );
+    virtual void press();
     void pressButton( TEvent& );
     TRect getActiveRect();
 

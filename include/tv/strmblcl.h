@@ -31,7 +31,7 @@ typedef TStreamable *(*BUILDER)();
 
 #define __DELTA( d ) ((uintptr_t)((TStreamable *)(d *)1)-1)
 
-class CLY_EXPORT TStreamableClass
+class TV_EXPORT TStreamableClass
 {
 
     friend class TStreamableTypes;

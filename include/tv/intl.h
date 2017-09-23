@@ -27,7 +27,7 @@ struct stTVIntl
 
 const int libPackageNameLen=20;
 
-class CLY_EXPORT TVIntl
+class TV_EXPORT TVIntl
 {
 public:
  TVIntl() {};

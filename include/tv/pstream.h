@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 Modified to compile with gcc v3.x by Salvador E. Tropea, with the help of
 Andris Pavenis.
 
@@ -27,7 +27,7 @@ Andris Pavenis.
 class TStreamableTypes;
 class TStreamableClass;
 
-class CLY_EXPORT pstream
+class TV_EXPORT pstream
 {
     friend class TStreamableTypes;
 

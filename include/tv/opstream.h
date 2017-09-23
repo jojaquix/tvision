@@ -27,7 +27,7 @@ Andris Pavenis and Christoph Bauer.
 class TStreamableClass;
 class TPWrittenObjects;
 
-class CLY_EXPORT opstream : virtual public pstream
+class TV_EXPORT opstream : virtual public pstream
 {
 public:
     opstream( CLY_streambuf * );

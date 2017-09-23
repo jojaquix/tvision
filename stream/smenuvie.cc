@@ -5,7 +5,7 @@
 #include <tv.h>
 __link( RView )
 
-TStreamableClass CLY_EXPORT RMenuView( TMenuView::name,
+TStreamableClass TV_EXPORT RMenuView( TMenuView::name,
                             TMenuView::build,
                             __DELTA(TMenuView)
                           );

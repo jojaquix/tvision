@@ -28,7 +28,7 @@ struct TEvent;
 
 typedef char TScrollChars[5];
 
-class CLY_EXPORT TScrollBar : public TView
+class TV_EXPORT TScrollBar : public TView
 {
 
 public:

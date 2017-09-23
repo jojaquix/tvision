@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 Added callback, code page stuff and various details by Salvador Eduardo Tropea.
 Added new class TButtonRef by Salvador Eduardo Tropea.
 Added i18n support by Salvador Eduardo Tropea.
@@ -54,7 +54,7 @@ TButton::TButton( const TRect& bounds,
     eventMask |= evBroadcast;
     if( !commandEnabled(aCommand) )
         state |= sfDisabled;
-    callBack=0;
+
     // This class can be "Braille friendly"
     if (TScreen::getShowCursorEver())
        state |= sfCursorVis;
@@ -304,20 +304,13 @@ void TButton::press()
     message(owner,evBroadcast,command,this);
  else
    {
-    if (callBack)
-      {// SET: That's really useful
-       int ret=callBack(command,cbData);
-       if (ret==btcbEndModal && owner)
-          owner->endModal(command);
-      }
-    else
-      {
+       onClick(this);
+
        TEvent e;
        e.what=evCommand;
        e.message.command=command;
        e.message.infoPtr=this;
        putEvent(e);
-      }
    }
 }
 

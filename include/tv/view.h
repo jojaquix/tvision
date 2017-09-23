@@ -11,7 +11,10 @@ Modified by Robert H�hne to be used for RHIDE.
  *
  */
 
-#if defined( Uses_TView ) && !defined( __TView )
+#include "cmdset.h"
+
+//#if defined( Uses_TView ) && !defined( __TView )
+#ifndef __TView
 #define __TView
 
 class TRect;
@@ -20,7 +23,7 @@ class TGroup;
 class TPalette;
 class TCommandSet;
 
-class CLY_EXPORT TView : public TObject
+class TV_EXPORT TView : public TObject
 #if !defined ( NO_STREAM )
                              , public TStreamable
 #endif // NO_STREAM

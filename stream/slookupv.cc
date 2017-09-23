@@ -4,12 +4,12 @@
 #define Uses_TStringLookupValidator
 #include <tv.h>
 
-TStreamableClass CLY_EXPORT RStringLookupValidator( TStringLookupValidator::name,
+TStreamableClass TV_EXPORT RStringLookupValidator( TStringLookupValidator::name,
                          TStringLookupValidator::build,
                          __DELTA(TStringLookupValidator)
                        );
 
-TStreamableClass CLY_EXPORT RLookupValidator( TLookupValidator::name,
+TStreamableClass TV_EXPORT RLookupValidator( TLookupValidator::name,
                          TLookupValidator::build,
                          __DELTA(TLookupValidator)
                        );

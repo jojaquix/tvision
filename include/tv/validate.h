@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 Modified by Salvador E. Tropea (TPXPictureValidator)
 
  *
@@ -32,7 +32,7 @@ typedef enum {
 } TVTransfer;
 
 // TValidator object
-class CLY_EXPORT TValidator : public TObject
+class TV_EXPORT TValidator : public TObject
 #if !defined( NO_STREAM )
     , CLY_BROKEN_WATCOM_SCOPE TStreamable
 #endif // NO_STREAM
@@ -83,7 +83,7 @@ inline opstream& operator << ( opstream& os, TValidator* cl )
 #if defined(Uses_TFilterValidator) && !defined(TFilterValidator_Included)
 #define TFilterValidator_Included
 
-class CLY_EXPORT TFilterValidator : public TValidator
+class TV_EXPORT TFilterValidator : public TValidator
 {
 public:
   TFilterValidator();
@@ -131,7 +131,7 @@ inline opstream& operator << ( opstream& os, TFilterValidator* cl )
 #if defined(Uses_TRangeValidator) && !defined(TRangeValidator_Included)
 #define TRangeValidator_Included
 
-class CLY_EXPORT TRangeValidator : public TFilterValidator
+class TV_EXPORT TRangeValidator : public TFilterValidator
 {
 public:
   TRangeValidator();
@@ -186,7 +186,7 @@ enum TPicResult {prComplete, prIncomplete, prEmpty, prError, prSyntax,
 // TPXPictureValidator
 
 
-class CLY_EXPORT TPXPictureValidator : public TValidator
+class TV_EXPORT TPXPictureValidator : public TValidator
 {
 public:
     TPXPictureValidator(const char* aPic, Boolean autoFill);
@@ -249,7 +249,7 @@ inline opstream& operator << ( opstream& os, TPXPictureValidator* v )
 
 // TLookupValidator
 
-class CLY_EXPORT TLookupValidator : public TValidator
+class TV_EXPORT TLookupValidator : public TValidator
 {
 public:
     TLookupValidator() : TValidator() {}
@@ -288,7 +288,7 @@ inline opstream& operator << ( opstream& os, TLookupValidator* v )
 
 class TStringCollection;
 
-class CLY_EXPORT TStringLookupValidator : public TLookupValidator
+class TV_EXPORT TStringLookupValidator : public TLookupValidator
 {
 public:
     TStringLookupValidator(TStringCollection* aStrings);

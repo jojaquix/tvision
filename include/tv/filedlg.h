@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 Modified by Salvador Eduardo Tropea to add more functionality.
 
  *
@@ -34,7 +34,7 @@ struct TEvent;
 class TFileInputLine;
 class TFileList;
 
-class CLY_EXPORT TFileDialog : public TDialog
+class TV_EXPORT TFileDialog : public TDialog
 {
 
 public:

@@ -14,7 +14,7 @@ Modified by Robert H�hne to be used for RHIDE.
 #if defined( Uses_TGroup ) && !defined( __TGroup )
 #define __TGroup
 
-class CLY_EXPORT TGroup : public TView
+class TV_EXPORT TGroup : public TView
 {
 
 public:

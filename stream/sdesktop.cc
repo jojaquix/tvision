@@ -4,7 +4,7 @@
 #define Uses_TStreamableClass
 #include <tv.h>
 
-TStreamableClass CLY_EXPORT RDeskTop( TDeskTop::name,
+TStreamableClass TV_EXPORT RDeskTop( TDeskTop::name,
                            TDeskTop::build,
                            __DELTA(TDeskTop)
                          );

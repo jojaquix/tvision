@@ -5,7 +5,7 @@
 #include <tv.h>
 __link( RStaticText )
 
-TStreamableClass CLY_EXPORT RLabel( TLabel::name,
+TStreamableClass TV_EXPORT RLabel( TLabel::name,
                          TLabel::build,
                          __DELTA(TLabel)
                        );

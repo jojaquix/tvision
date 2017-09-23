@@ -31,7 +31,7 @@ class TPoint;
 class TStringCollection;
 class TStringCollectionCIntl;
 
-class CLY_EXPORT TCluster : public TView
+class TV_EXPORT TCluster : public TView
 {
 
 public:

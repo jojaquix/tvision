@@ -65,7 +65,7 @@ differences.@*
   
 ***************************************************************************/
 
-class CLY_EXPORT TDisplay
+class TV_EXPORT TDisplay
 {
 public:
  friend class TView;
@@ -255,7 +255,7 @@ private:
 };
 
 // virtual to avoid problems with multiple inheritance
-class CLY_EXPORT TScreen : virtual public TDisplay
+class TV_EXPORT TScreen : virtual public TDisplay
 {
 public:
  // From original TV 2.0

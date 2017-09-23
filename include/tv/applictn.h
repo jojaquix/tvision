@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -14,7 +14,7 @@ Modified by Robert H”hne to be used for RHIDE.
 #if defined( Uses_TApplication ) && !defined( __TApplication )
 #define __TApplication
 
-class CLY_EXPORT TApplication : public TProgram
+class TV_EXPORT TApplication : public TProgram
 {
 
 protected:

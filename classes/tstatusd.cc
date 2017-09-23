@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -15,7 +15,7 @@ Modified by Robert H”hne to be used for RHIDE.
 #define Uses_TStatusItem
 #include <tv.h>
 
-CLY_EXPORT TStatusDef& operator + ( TStatusDef& s1, TStatusItem& s2 )
+TV_EXPORT TStatusDef& operator + ( TStatusDef& s1, TStatusItem& s2 )
 {
     TStatusDef *def = &s1;
     while( def->next != 0 )
@@ -32,7 +32,7 @@ CLY_EXPORT TStatusDef& operator + ( TStatusDef& s1, TStatusItem& s2 )
     return s1;
 }
 
-CLY_EXPORT TStatusDef& operator + ( TStatusDef& s1, TStatusDef& s2 )
+TV_EXPORT TStatusDef& operator + ( TStatusDef& s1, TStatusDef& s2 )
 {
     TStatusDef *cur = &s1;
     while( cur->next != 0 )

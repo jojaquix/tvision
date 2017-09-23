@@ -173,7 +173,7 @@ void opstream::writeString( const char *str )
 
 /* Operators moved to headers by JASC */
 
-CLY_EXPORT opstream& operator << ( opstream& ps, TStreamable& t )
+TV_EXPORT opstream& operator << ( opstream& ps, TStreamable& t )
 {
     ps.writePrefix( t );
     ps.writeData( t );
@@ -181,7 +181,7 @@ CLY_EXPORT opstream& operator << ( opstream& ps, TStreamable& t )
     return ps;
 }
 
-CLY_EXPORT opstream& operator << ( opstream& ps, TStreamable *t )
+TV_EXPORT opstream& operator << ( opstream& ps, TStreamable *t )
 {
     P_id_type index;
     if( t == 0 )

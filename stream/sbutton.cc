@@ -5,7 +5,7 @@
 #include <tv.h>
 __link( RView )
 
-TStreamableClass CLY_EXPORT RButton( TButton::name,
+TStreamableClass TV_EXPORT RButton( TButton::name,
                           TButton::build,
                           __DELTA(TButton)
                         );

@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -14,7 +14,7 @@ Modified by Robert H”hne to be used for RHIDE.
 #if defined( Uses_TEventQueue ) && !defined( __TEventQueue )
 #define __TEventQueue
 
-class CLY_EXPORT TEventQueue
+class TV_EXPORT TEventQueue
 {
 public:
     TEventQueue();

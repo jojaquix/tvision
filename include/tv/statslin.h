@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -30,7 +30,7 @@ class TRect;
 struct TEvent;
 class TPoint;
 
-class CLY_EXPORT TStatusLine : public TView
+class TV_EXPORT TStatusLine : public TView
 {
 
 public:

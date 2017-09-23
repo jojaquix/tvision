@@ -28,7 +28,7 @@ Added TCheckBoxes32 and code page stuff by Salvador Eduardo Tropea.
 class TRect;
 class TSItem;
 
-class CLY_EXPORT TCheckBoxes : public TCluster
+class TV_EXPORT TCheckBoxes : public TCluster
 {
 
 public:

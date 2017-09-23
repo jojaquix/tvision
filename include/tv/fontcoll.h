@@ -28,7 +28,7 @@ struct TVBitmapFontDesc
  TStringCollection *sizes;
 };
 
-class CLY_EXPORT TVBitmapFontDescCol : public TStringCollection
+class TV_EXPORT TVBitmapFontDescCol : public TStringCollection
 {
 public:
  TVBitmapFontDescCol() : TStringCollection(8,4) {}
@@ -36,7 +36,7 @@ public:
  virtual void *keyOf(void *item);
 };
 
-class CLY_EXPORT TVBitmapFontDescLBox : public TSortedListBox
+class TV_EXPORT TVBitmapFontDescLBox : public TSortedListBox
 {
 public:
  TVBitmapFontDescLBox(const TRect& bounds, ushort aNumCols,
@@ -51,7 +51,7 @@ struct TVBitmapFontSize
  unsigned w,h;
 };
 
-class CLY_EXPORT TVBitmapFontSizeCol : public TStringCollection
+class TV_EXPORT TVBitmapFontSizeCol : public TStringCollection
 {
 public:
  TVBitmapFontSizeCol() : TStringCollection(3,3) {}
@@ -60,7 +60,7 @@ public:
  virtual void freeItem(void *item) { delete (TVBitmapFontSize *)item; }
 };
 
-class CLY_EXPORT TVBitmapFontSizeLBox : public TSortedListBox
+class TV_EXPORT TVBitmapFontSizeLBox : public TSortedListBox
 {
 public:
  TVBitmapFontSizeLBox(const TRect& bounds, ushort aNumCols,
@@ -70,7 +70,7 @@ public:
  virtual void getText(char *dest, ccIndex item, short maxChars);
 };
 
-class CLY_EXPORT TVFontCollection : public TNSCollection
+class TV_EXPORT TVFontCollection : public TNSCollection
 {
 public:
  TVFontCollection(const char *file, int cp);

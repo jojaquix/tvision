@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 Modified by Salvador E. Tropea.
 
  *
@@ -22,18 +22,18 @@ Modified by Salvador E. Tropea.
 class TRect;
 class TValidator;
 
-ushort CLY_EXPORT messageBox( const char *msg, ushort aOptions );
-ushort CLY_EXPORT messageBox( ushort aOptions, const char *msg, ... )
+ushort TV_EXPORT messageBox( const char *msg, ushort aOptions );
+ushort TV_EXPORT messageBox( ushort aOptions, const char *msg, ... )
                 __attribute__ ((format (printf, 2, 3)));
 
-ushort CLY_EXPORT messageBoxRect( const TRect &r, const char *msg, ushort aOptions );
-ushort CLY_EXPORT messageBoxRect( const TRect &r, ushort aOptions, const char *msg, ... )
+ushort TV_EXPORT messageBoxRect( const TRect &r, const char *msg, ushort aOptions );
+ushort TV_EXPORT messageBoxRect( const TRect &r, ushort aOptions, const char *msg, ... )
                 __attribute__ ((format (printf, 3, 4)));
 
-ushort CLY_EXPORT inputBox( const char *Title, const char *aLabel, char *s, int limit,
+ushort TV_EXPORT inputBox( const char *Title, const char *aLabel, char *s, int limit,
                             TValidator *aVal=NULL);
 
-ushort CLY_EXPORT inputBoxRect( const TRect &bounds, const char *title,
+ushort TV_EXPORT inputBoxRect( const TRect &bounds, const char *title,
                                 const char *aLabel, char *s, int limit,
                                 TValidator *aVal=NULL);
 
@@ -63,7 +63,7 @@ const ushort
     mfOKCancel     = mfOKButton | mfCancelButton;
                                     // Standard OK, Cancel dialog
 
-class CLY_EXPORT MsgBoxText
+class TV_EXPORT MsgBoxText
 {
 
 public:

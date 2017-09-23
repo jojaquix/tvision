@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -28,7 +28,7 @@ Modified by Robert H”hne to be used for RHIDE.
 class TRect;
 class TScrollBar;
 
-class CLY_EXPORT THistoryViewer : public TListViewer
+class TV_EXPORT THistoryViewer : public TListViewer
 {
 
 public:

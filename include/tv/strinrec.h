@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -14,7 +14,7 @@ Modified by Robert H”hne to be used for RHIDE.
 #if defined( Uses_TStrIndexRec ) && !defined( __TStrIndexRec )
 #define __TStrIndexRec
 
-class CLY_EXPORT TStrIndexRec
+class TV_EXPORT TStrIndexRec
 {
 
 public:

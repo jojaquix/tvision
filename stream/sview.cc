@@ -4,7 +4,7 @@
 #define Uses_TStreamableClass
 #include <tv.h>
 
-TStreamableClass CLY_EXPORT RView( TView::name,
+TStreamableClass TV_EXPORT RView( TView::name,
                         TView::build,
                         __DELTA(TView)
                       );

@@ -4,7 +4,7 @@
 #define Uses_TStreamableClass
 #include <tv.h>
 
-TStreamableClass CLY_EXPORT RFileCollection( TFileCollection::name,
+TStreamableClass TV_EXPORT RFileCollection( TFileCollection::name,
                                   TFileCollection::build,
                                   __DELTA(TFileCollection)
                                 );

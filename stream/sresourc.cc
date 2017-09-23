@@ -4,7 +4,7 @@
 #define Uses_TStreamableClass
 #include <tv.h>
 
-TStreamableClass CLY_EXPORT RResourceCollection( TResourceCollection::name,
+TStreamableClass TV_EXPORT RResourceCollection( TResourceCollection::name,
                                       TResourceCollection::build,
                                       __DELTA(TResourceCollection)
                                     );

@@ -5,7 +5,7 @@
 #include <tv.h>
 __link( RView )
 
-TStreamableClass CLY_EXPORT RScroller( TScroller::name,
+TStreamableClass TV_EXPORT RScroller( TScroller::name,
                              TScroller::build,
                              __DELTA(TScroller)
                           );

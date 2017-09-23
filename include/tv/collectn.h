@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -14,7 +14,7 @@ Modified by Robert H”hne to be used for RHIDE.
 #if defined( Uses_TCollection ) && !defined( __TCollection )
 #define __TCollection
 
-class CLY_EXPORT TCollection : public virtual TNSCollection
+class TV_EXPORT TCollection : public virtual TNSCollection
 #if !defined( NO_STREAM )
                                                  , public TStreamable
 #endif // NO_STREAM

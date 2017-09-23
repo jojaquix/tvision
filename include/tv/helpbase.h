@@ -50,7 +50,7 @@ public:
 
 typedef void (*TCrossRefHandler) ( opstream&, int );
 
-class CLY_EXPORT THelpTopic: public TObject, public TStreamable
+class TV_EXPORT THelpTopic: public TObject, public TStreamable
 {
 
 public:
@@ -114,7 +114,7 @@ inline opstream& operator << ( opstream& os, THelpTopic* cl )
 
 // THelpIndex
 
-class CLY_EXPORT THelpIndex : public TObject, public TStreamable
+class TV_EXPORT THelpIndex : public TObject, public TStreamable
 {
 public:
 
@@ -159,7 +159,7 @@ inline opstream& operator << ( opstream& os, THelpIndex* cl )
 
 // THelpFile
 
-class CLY_EXPORT THelpFile : public TObject
+class TV_EXPORT THelpFile : public TObject
 {
 
     static const char * invalidContext;

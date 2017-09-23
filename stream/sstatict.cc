@@ -5,7 +5,7 @@
 #include <tv.h>
 __link( RView )
 
-TStreamableClass CLY_EXPORT RStaticText( TStaticText::name,
+TStreamableClass TV_EXPORT RStaticText( TStaticText::name,
                               TStaticText::build,
                               __DELTA(TStaticText)
                             );

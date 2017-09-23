@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 Modified to compile with gcc v3.x by Salvador E. Tropea, with the help of
 Andris Pavenis.
 
@@ -19,7 +19,7 @@ Andris Pavenis.
 class TRect;
 class TScrollBar;
 
-class CLY_EXPORT TTextDevice : public CLY_streambuf, public TScroller
+class TV_EXPORT TTextDevice : public CLY_streambuf, public TScroller
 /* I have changed the order of the baseclasses, because there is a bug in
    the iostream library. The functions in this library call the functions
    if of a streambuf object with a this pointer to the streambuf object,

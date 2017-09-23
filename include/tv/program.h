@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 Modified by Salvador E. Tropea (setScreenMode and other things)
 
  *
@@ -42,7 +42,7 @@ class  TView;
 class  TScreen;
 class  TVMainConfigFile;
 
-class CLY_EXPORT TProgInit
+class TV_EXPORT TProgInit
 {
 public:
     TProgInit( TStatusLine *(*cStatusLine)( TRect ),
@@ -80,7 +80,7 @@ const int
     apMonochrome = 2;
 
 
-class CLY_EXPORT TProgram : public TGroup, public virtual TProgInit
+class TV_EXPORT TProgram : public TGroup, public virtual TProgInit
 {
 
 public:

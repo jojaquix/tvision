@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -24,7 +24,7 @@ const ushort
           cmFileViewAnswer = 599; // I hope this conflicts with
                                   // nothing else
 
-class CLY_EXPORT TLineCollection : public TCollection
+class TV_EXPORT TLineCollection : public TCollection
 {
 
 public:
@@ -42,7 +42,7 @@ private:
 
 };
 
-class CLY_EXPORT TFileViewer : public TScroller
+class TV_EXPORT TFileViewer : public TScroller
 {
 
 public:
@@ -106,7 +106,7 @@ public:
 #endif // NO_STREAM
 };
 
-class CLY_EXPORT TFileWindow : public TWindow
+class TV_EXPORT TFileWindow : public TWindow
 {
 
 public:

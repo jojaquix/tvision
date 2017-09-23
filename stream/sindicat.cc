@@ -5,7 +5,7 @@
 #include <tv.h>
 __link( RView )
 
-TStreamableClass CLY_EXPORT RIndicator( TIndicator::name,
+TStreamableClass TV_EXPORT RIndicator( TIndicator::name,
                              TIndicator::build,
                              __DELTA(TIndicator)
                            );

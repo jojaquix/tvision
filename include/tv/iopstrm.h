@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -22,7 +22,7 @@ Modified by Robert H”hne to be used for RHIDE.
 #if defined( Uses_iopstream ) && !defined( __iopstream )
 #define __iopstream
 
-class CLY_EXPORT iopstream : public ipstream, public opstream
+class TV_EXPORT iopstream : public ipstream, public opstream
 {
 public:
  iopstream(CLY_streambuf *);

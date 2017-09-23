@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -27,7 +27,7 @@ Modified by Robert H”hne to be used for RHIDE.
 // Avoid replacing new by MSS's macro
 #include <tv/no_mss.h>
 
-class CLY_EXPORT TStreamableTypes : private TNSSortedCollection
+class TV_EXPORT TStreamableTypes : private TNSSortedCollection
 {
 
 public:

@@ -5,7 +5,7 @@
  *      All Rights Reserved.
  *
 
-Modified by Robert H”hne to be used for RHIDE.
+Modified by Robert Hï¿½hne to be used for RHIDE.
 
  *
  *
@@ -16,7 +16,7 @@ Modified by Robert H”hne to be used for RHIDE.
 // Avoid replacing free by MSS's macro
 #include <tv/no_mss.h>
 
-class CLY_EXPORT TNSCollection : public TObject
+class TV_EXPORT TNSCollection : public TObject
 {
 
 public:
