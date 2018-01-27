@@ -28,9 +28,9 @@ Added i18n support by Salvador Eduardo Tropea.
 /*        8 = Shadow                                                      */
 /* ---------------------------------------------------------------------- */
 
-//#if defined( Uses_TButton ) && !defined( __TButton )
+#if defined( Uses_TButton ) && !defined( __TButton )
 
-#ifndef __TButton
+//#ifndef __TButton
 #define __TButton
 
 #include <boost/signals2.hpp>

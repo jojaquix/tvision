@@ -13,8 +13,8 @@ Modified by Robert H�hne to be used for RHIDE.
 
 #include "cmdset.h"
 
-//#if defined( Uses_TView ) && !defined( __TView )
-#ifndef __TView
+#if defined( Uses_TView ) && !defined( __TView )
+//#ifndef __TView
 #define __TView
 
 class TRect;
