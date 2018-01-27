@@ -213,7 +213,7 @@ typedef unsigned long  ulong;
 #undef CLY_DONT_DEFINE_MIN_MAX
 #undef CLY_Redraw
 #undef CLY_SAFE_MEMCPY
-#undef CLY_EXPORT
+#undef TV_EXPORT
 #undef CLY_BROKEN_WATCOM_SCOPE
 
 #define CLY_BROKEN_WATCOM_SCOPE protected
@@ -253,8 +253,8 @@ typedef unsigned long  ulong;
    and redraw members. */
 #define CLY_Redraw Redraw
 
-/* The default is CLY_EXPORT expanded to nothing. */
-#define CLY_EXPORT
+/* The default is TV_EXPORT expanded to nothing. */
+#define TV_EXPORT
 
 #ifdef TVComp_GCC
 /* GNU C is supported for various OSs: */
@@ -1216,11 +1216,11 @@ typedef unsigned long  ulong;
 /* Derived from BC++ section */
 #ifdef TVComp_Watcom
  /* Support for the library as a DLL. */
- #undef CLY_EXPORT
+ #undef TV_EXPORT
  #ifdef CLY_DLL
-  #define CLY_EXPORT __declspec(dllexport)
+  #define TV_EXPORT __declspec(dllexport)
  #else
-  #define CLY_EXPORT __declspec(dllimport)
+  #define TV_EXPORT __declspec(dllimport)
  #endif
  /* Watcom generates the following error for validate.h:
     include\tv\validate.h(127): Error! E346: col(33) protected base class accessed to convert cast expression
@@ -2490,38 +2490,38 @@ typedef unsigned int CLY_mode_t;
 #endif
 /* Utility function to find the attributes of a file. You must call stat
    first and pass the st_mode member of stat's struct in statVal. */
-CLY_EXPORT CLY_CFunc void CLY_GetFileAttributes(CLY_mode_t *mode, struct stat *statVal, const char *fileName);
+TV_EXPORT CLY_CFunc void CLY_GetFileAttributes(CLY_mode_t *mode, struct stat *statVal, const char *fileName);
 /* The reverse. The file must be closed! */
-CLY_EXPORT CLY_CFunc int CLY_SetFileAttributes(CLY_mode_t *newmode, const char *fileName);
+TV_EXPORT CLY_CFunc int CLY_SetFileAttributes(CLY_mode_t *newmode, const char *fileName);
 /* This function alters mode content so the attribute indicates that the
    owner of the file can't read from it */
-CLY_EXPORT CLY_CFunc void CLY_FileAttrReadOnly(CLY_mode_t *mode);
+TV_EXPORT CLY_CFunc void CLY_FileAttrReadOnly(CLY_mode_t *mode);
 /* This function alters mode content so the attribute indicates that the
    owner of the file can read from it */
-CLY_EXPORT CLY_CFunc void CLY_FileAttrReadWrite(CLY_mode_t *mode);
+TV_EXPORT CLY_CFunc void CLY_FileAttrReadWrite(CLY_mode_t *mode);
 /* Returns !=0 if the file is read-only */
-CLY_EXPORT CLY_CFunc int  CLY_FileAttrIsRO(CLY_mode_t *mode);
+TV_EXPORT CLY_CFunc int  CLY_FileAttrIsRO(CLY_mode_t *mode);
 /* Sets the attribute that indicates the file was modified */
-CLY_EXPORT CLY_CFunc void CLY_FileAttrModified(CLY_mode_t *mode);
+TV_EXPORT CLY_CFunc void CLY_FileAttrModified(CLY_mode_t *mode);
 /* It returns a mode that can be used for a newly created file */
-CLY_EXPORT CLY_CFunc void CLY_GetDefaultFileAttr(CLY_mode_t *mode);
+TV_EXPORT CLY_CFunc void CLY_GetDefaultFileAttr(CLY_mode_t *mode);
 #endif
 
 /* Returns the name of the shell command */
-CLY_CFunc CLY_EXPORT char *CLY_GetShellName(void);
+CLY_CFunc TV_EXPORT char *CLY_GetShellName(void);
 
 /* v/snprintf functions */
 #if defined(Uses_snprintf) && !defined(CLY_Have_snprintf)
-CLY_EXPORT CLY_CFunc int CLY_vsnprintf(char *string, size_t length, const char * format, va_list args);
-CLY_EXPORT CLY_CFunc int CLY_snprintf(char *string, size_t length, const char * format, ...);
+TV_EXPORT CLY_CFunc int CLY_vsnprintf(char *string, size_t length, const char * format, va_list args);
+TV_EXPORT CLY_CFunc int CLY_snprintf(char *string, size_t length, const char * format, ...);
 #endif
 
 #ifdef Uses_ifsFileLength
-CLY_EXPORT long CLY_ifsFileLength(CLY_std(ifstream) &f);
+TV_EXPORT long CLY_ifsFileLength(CLY_std(ifstream) &f);
 #endif
 
 #ifdef Uses_CLY_IfStreamGetLine
-CLY_EXPORT int CLY_IfStreamGetLine(CLY_std(ifstream) &is, char *buffer, unsigned len);
+TV_EXPORT int CLY_IfStreamGetLine(CLY_std(ifstream) &is, char *buffer, unsigned len);
 #endif
 
 /* Internal definition of nl_langinfo */
@@ -2551,14 +2551,14 @@ typedef int nl_item;
 #define P_SEP_BY_SPACE   16 /*p_sep_by_space*/
 
 #define nl_langinfo CLY_nl_langinfo
-CLY_CFunc CLY_EXPORT char *CLY_nl_langinfo(nl_item item);
+CLY_CFunc TV_EXPORT char *CLY_nl_langinfo(nl_item item);
 #endif /* defined(Uses_CLY_nl_langinfo) && !defined(CLY_nl_langinfo_Defined) */
 
 #ifdef Uses_CLY_getline
-CLY_CFunc CLY_EXPORT ssize_t CLY_getstr(char **lineptr, size_t *n, FILE *stream,
+CLY_CFunc TV_EXPORT ssize_t CLY_getstr(char **lineptr, size_t *n, FILE *stream,
                                         char terminator, int offset, int limit);
-CLY_CFunc CLY_EXPORT ssize_t CLY_getline(char **lineptr, size_t *n, FILE *stream);
-CLY_CFunc CLY_EXPORT ssize_t CLY_getline_safe(char **lineptr, size_t *n,
+CLY_CFunc TV_EXPORT ssize_t CLY_getline(char **lineptr, size_t *n, FILE *stream);
+CLY_CFunc TV_EXPORT ssize_t CLY_getline_safe(char **lineptr, size_t *n,
                                               FILE *stream, int limit);
 #endif
 
