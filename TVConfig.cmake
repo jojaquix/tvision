@@ -41,6 +41,18 @@ endif(CMAKE_USE_PTHREADS_INIT)
 if("${CMAKE_SIZEOF_VOID_P}" EQUAL "8")
 	set(HAVE_64BITS_POINTERS 1)
 endif("${CMAKE_SIZEOF_VOID_P}" EQUAL "8")
+if(Boost_FOUND)
+  include_directories(${Boost_INCLUDE_DIRS})
+  add_executable(foo foo.cc)
+endif()
+
+
+#this version will use boost for serialization and high level events soo
+find_package(Boost 1.40 REQUIRED)
+if(Boost_FOUND)
+	include_directories(${Boost_INCLUDE_DIRS})
+endif()
+
 
 # TVOS_
 if(UNIX)

@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.0)
-project(rhtvision)
-
+project(jtvision)
 
 option(ENABLE_WINGR_DRIVER "Enable WinGr Driver" ON)
 
 
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}")
+
 include(TVConfig)
 
 include_directories(${CMAKE_BINARY_DIR}/include $
