@@ -1,8 +1,8 @@
 # tvision
 
 This is a for of: https://github.com/windoze/tvision
-Intents:
 
+Intents:
 * Keep it as simple as possible, with not a lot of dependencies.
 * Multiplatform (Linux and Windows at begin)
 
