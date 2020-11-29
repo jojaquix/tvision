@@ -1,6 +1,6 @@
 # tvision
 
-This is a for of: https://github.com/windoze/tvision
+This is a fork of: https://github.com/windoze/tvision
 
 Intents:
 * Keep it as simple as possible, with not a lot of dependencies.
