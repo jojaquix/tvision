@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(jtvision)
+project(rhtvision)
 
 option(ENABLE_WINGR_DRIVER "Enable WinGr Driver" ON)
 
@@ -561,4 +561,5 @@ endif("${CMAKE_SYSTEM_NAME}" MATCHES "Linux")
 
 add_library(rhtv ${RHTV_HDRS} ${INTL_SRCS} ${COMPAT_SRCS} ${RHTV_SRCS} ${RHTV_PLATFORM_SRCS} ${RHTV_REGEX_SRCS} ${RHTV_SSC_SRCS})
 
+#ADD_SUBDIRECTORY(examples EXCLUDE_FROM_ALL)
 ADD_SUBDIRECTORY(examples EXCLUDE_FROM_ALL)

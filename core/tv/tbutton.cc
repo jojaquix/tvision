@@ -304,8 +304,6 @@ void TButton::press()
     message(owner,evBroadcast,command,this);
  else
    {
-       onClick(this);
-
        TEvent e;
        e.what=evCommand;
        e.message.command=command;

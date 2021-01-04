@@ -33,8 +33,6 @@ Added i18n support by Salvador Eduardo Tropea.
 //#ifndef __TButton
 #define __TButton
 
-#include <boost/signals2.hpp>
-
 class TRect;
 struct TEvent;
 class TDrawBuffer;
@@ -48,10 +46,6 @@ class TV_EXPORT TButton : public TView
 {
 
 public:
-
-
-    boost::signals2::signal<void (TButton*)> onClick;
-
 
     TButton( const TRect& bounds,
              const char *aTitle,

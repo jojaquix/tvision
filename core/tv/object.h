@@ -17,8 +17,6 @@ Modified by Robert H�hne to be used for RHIDE.
 #define __TObject
 
 #include <stddef.h>
-#include <boost/signals2.hpp>
-
 
 /**
  * Base class for this turbo vision implementation.
@@ -34,15 +32,6 @@ public:
 
     static void CLY_destroy( TObject * );
     virtual void shutDown();
-
-    boost::signals2::signal<void (TObject* sender)> onInit;
-    boost::signals2::signal<void (TObject* sender)> onShutdown;
-
-    /**
-     * Signal generate when the object is deleted.
-     */
-    boost::signals2::signal<void (TObject* sender)> onDestroy;
-
 private:
 
 };
